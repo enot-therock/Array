@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Task number 2");
 
         for (int i = 0; i < firstArr.length; i++) {
-            if (firstArr[i] == firstArr[2]) {
+            if (i == firstArr.length - 1) {
                 System.out.print(firstArr[i]);
                 break;
             }
@@ -29,29 +29,29 @@ public class Main {
 
         System.out.println();
 
-        for (int r = 0; r < secondArr.length; r++) {
-            if (secondArr[r] == secondArr[2]) {
-                System.out.print(secondArr[r]);
+        for (int i = 0; i < secondArr.length; i++) {
+            if (i == secondArr.length - 1) {
+                System.out.print(secondArr[i]);
                 break;
             }
-            System.out.print(secondArr[r] + ", ");
+            System.out.print(secondArr[i] + ", ");
         }
 
         System.out.println();
 
-        for (int c = 0; c < thirdArr.length; c++) {
-            if (thirdArr[c] == thirdArr[4]) {
-                System.out.print(thirdArr[c]);
+        for (int i = 0; i < thirdArr.length; i++) {
+            if (i == thirdArr.length - 1) {
+                System.out.print(thirdArr[i]);
                 break;
             }
-            System.out.print(thirdArr[c] + ", ");
+            System.out.print(thirdArr[i] + ", ");
         }
 
         System.out.println();
         System.out.println("Task number 3");
 
         for (int i = firstArr.length - 1; i >= 0; i--) {
-            if (firstArr[i] <= firstArr[0]) {
+            if (i == 0) {
                 System.out.print(firstArr[i]);
                 break;
             }
@@ -60,22 +60,22 @@ public class Main {
 
         System.out.println();
 
-        for (int r = secondArr.length - 1; r >= 0; r--) {
-            if (secondArr[r] <= secondArr[0]) {
-                System.out.print(secondArr[r]);
+        for (int i = secondArr.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(secondArr[i]);
                 break;
             }
-            System.out.print(secondArr[r] + ", ");
+            System.out.print(secondArr[i] + ", ");
         }
 
         System.out.println();
 
-        for (int c = thirdArr.length - 1; c >= 0; c--) {
-            if (thirdArr[c] == thirdArr[0]) {
-                System.out.print(thirdArr[c]);
+        for (int i = thirdArr.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(thirdArr[i]);
                 break;
             }
-            System.out.print(thirdArr[c] + ", ");
+            System.out.print(thirdArr[i] + ", ");
         }
 
         System.out.println();
