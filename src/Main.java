@@ -82,7 +82,7 @@ public class Main {
         System.out.println("Task number 4");
 
         for (int a = 0; a < firstArr.length; a++) {
-            if (firstArr[a] % 2 ==  1) {
+            if (firstArr[a] % 2 != 0) {
                 firstArr[a]++;
             }
             System.out.println(firstArr[a]);
